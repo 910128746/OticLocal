@@ -68,7 +68,7 @@ nc -w 3 "$PHONE_IP" "$PORT" | pacat --playback \
 echo "Stream stopped"
 ```
 
-註： `sample-rate`與`format`必須為`48000`與`s16le`(`pcm`)否則很可能不能正常工作。此外，腳本示例中的`<FIND_PORT_FROM_OTIC>`需要按照實際設定的端口進行更改，預設為58585。
+註： `sample-rate`與`format`必須為`48000`與`s16le`否則很可能不能正常工作。此外，腳本示例中的`<FIND_PORT_FROM_OTIC>`需要按照實際設定的端口進行更改，預設為58585。
 
 記得使用時要先啟動OticLocal的音訊串流再跑接收腳本，同時此腳本可以按需求配合`nohup`使用
 
