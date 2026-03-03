@@ -99,7 +99,7 @@ while true; do
 done
 echo "oticlocal server is ready"
 ```
-（註：`am start`與`termux-notification-list`在termux 上偶爾可能失效，如果日常使用Shizuku並安裝了[termux-shizuku-tools](https://github.com/AlexeiCrystal/termux-shizuku-tools) ，那麼可以改用`shizuku e 'am start -n com.zj978.oticlocal/.OticLocalActivity'`，可能提升體驗）
+（註：`am start`與`termux-notification-list`在termux 上偶爾可能失效，如果日常常駐使用Shizuku並安裝了[termux-shizuku-tools](https://github.com/AlexeiCrystal/termux-shizuku-tools) ，那麼可以改用`shizuku e 'am start -n com.zj978.oticlocal/.OticLocalActivity'`，可能提升體驗）
 
 5.建立一個`oticlocal`並填入上方說明處的接收示例腳本(**記得更改端口的佔位文本**)
 
