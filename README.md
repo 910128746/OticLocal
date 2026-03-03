@@ -111,3 +111,10 @@ echo "oticlocal server is ready"
 7.建立一個桌面啟動器或一個`alias`別名於`~/.bashrc`並讓其可以方便執行`bash -lic "${PREFIX}/my_script/opmic && ${PREFIX}/my_script/oticlocal"`
 
 8.最後`source ~/.bashrc`讓在`~/.bashrc`的更改被套用
+
+---
+
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=gh-zj978/OticLocal&type=date&legend=top-left)](https://www.star-history.com/#gh-zj978/OticLocal&type=date&legend=top-left)
