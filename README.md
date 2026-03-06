@@ -3,6 +3,8 @@
 
 **這是一 個人倉庫，不保證後續維護與是否穩定**
 
+分支自[sakethpathike/Otic](https://github.com/sakethpathike/Otic)
+
 ---
 
 OticLocal 是一款能讓安卓設備轉發自身麥克風輸入至本地環回網路的小工具
